@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ui.SplashInitActivity">
+
+    <com.jerry.simpleui.widget.UINavigationView
+        android:id="@+id/uinv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_offset_top_bar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/ui_offset_16">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联络语音提醒设置"
+            android:textColor="@color/textColor2" />
+
+
+        <LinearLayout
+            android:id="@+id/vTimeGapLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_offset_40"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间间隔:" />
+
+            <TextView
+                tools:text="3"
+                android:layout_weight="1"
+                android:id="@+id/vTimeGap"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_height="wrap_content"/>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="分钟"/>-->
+
+            <ImageView
+                android:layout_width="@dimen/ui_offset_20"
+                android:layout_height="@dimen/ui_offset_20"
+                android:src="@drawable/qmui_icon_quick_action_more_arrow_right"
+                app:tint="@color/textColor1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_offset_1_px"
+            android:background="@drawable/qmui_divider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ui_offset_10"
+            android:text="作业时间提醒设置"
+            android:textColor="@color/textColor2" />
+
+        <LinearLayout
+            android:id="@+id/vWorkLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_offset_40"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作业时间:" />
+
+            <TextView
+                tools:text="3"
+                android:layout_weight="1"
+                android:id="@+id/vWorkTime"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="@dimen/ui_offset_20"
+                android:layout_height="@dimen/ui_offset_20"
+                android:src="@drawable/qmui_icon_quick_action_more_arrow_right"
+                app:tint="@color/textColor1" />
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="分钟"/>-->
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_offset_1_px"
+            android:background="@drawable/qmui_divider" />
+        <LinearLayout
+            android:id="@+id/vWorkTipLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_offset_40"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作业提醒间隔时间:" />
+
+            <TextView
+                tools:text="3"
+                android:layout_weight="1"
+                android:id="@+id/vWorkTipTime"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_height="wrap_content"/>
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="分钟"/>-->
+            <ImageView
+                android:layout_width="@dimen/ui_offset_20"
+                android:layout_height="@dimen/ui_offset_20"
+                android:src="@drawable/qmui_icon_quick_action_more_arrow_right"
+                app:tint="@color/textColor1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/vSave"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_offset_40"
+        style="@style/CommonButton"
+        android:layout_marginStart="@dimen/ui_offset_16"
+        android:layout_marginEnd="@dimen/ui_offset_16"
+        android:layout_marginTop="@dimen/ui_offset_30"
+        android:textColor="@color/qmui_config_color_white"
+        android:text="保存"/>
+
+</LinearLayout>

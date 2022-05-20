@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="QMUI.Compat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/qmui_config_color_white</item>
+        <item name="qmui_bottom_sheet_grid_item_text_margin_top">1dp</item>
+        <item name="android:textViewStyle">@style/baseTextView</item>
+    </style>
+
+    <style name="baseTextView" parent="TextView.Compat">
+        <item name="android:textColor">@color/textColor1</item>
+        <item name="android:textSize">@dimen/ui_font_size_14</item>
+
+    </style>
+    <style name="splashTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+<!--        <item name="android:windowBackground">@drawable/bg_splash</item>-->
+    </style>
+    <style name="webTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/qmui_config_color_white</item>
+        <item name="isLightTheme">true</item>
+    </style>
+</resources>

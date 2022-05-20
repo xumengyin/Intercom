@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/ui_offset_20"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/vStartBtn"
+        style="@style/CommonButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_offset_40"
+        android:text="开始工作"
+        android:textColor="@color/qmui_config_color_white" />
+
+    <Button
+        android:id="@+id/vSettingBtn"
+        style="@style/CommonButton"
+        android:layout_marginTop="@dimen/ui_offset_30"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_offset_40"
+        android:text="设置"
+        android:textColor="@color/qmui_config_color_white" />
+
+
+</LinearLayout>

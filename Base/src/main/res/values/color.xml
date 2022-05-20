@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_filled_blue_bg_disabled">#80416f96</color>
+    <color name="btn_filled_blue_bg_normal">#416f96</color>
+    <color name="btn_filled_blue_bg_pressed">#243f55</color>
+    <color name="btn_ghost_blue_border_disabled">#801B88EE</color>
+    <color name="btn_ghost_blue_border_normal">@color/ui_config_color_blue</color>
+    <color name="btn_ghost_blue_border_pressed">#801B88EE</color>
+    <color name="btn_ghost_blue_text_disabled">#801B88EE</color>
+    <color name="btn_ghost_blue_text_normal">@color/ui_config_color_blue</color>
+    <color name="btn_ghost_blue_text_pressed">#801B88EE</color>
+    <color name="colorPrimary">#1B88EE</color>
+    <color name="colorPrimaryDark">#1B88EE</color>
+    <color name="ui_config_color_10_pure_black">#19000000</color>
+    <color name="ui_config_color_10_white">#19FFFFFF</color>
+    <color name="ui_config_color_15_pure_black">#26000000</color>
+    <color name="ui_config_color_15_white">#26FFFFFF</color>
+    <color name="ui_config_color_25_pure_black">#40000000</color>
+    <color name="ui_config_color_25_white">#40FFFFFF</color>
+    <color name="ui_config_color_50_blue">#801B88EE</color>
+    <color name="ui_config_color_50_pure_black">#80000000</color>
+    <color name="ui_config_color_50_white">#80FFFFFF</color>
+    <color name="ui_config_color_60_pure_black">#99000000</color>
+    <color name="ui_config_color_75_pure_black">#C0000000</color>
+    <color name="ui_config_color_75_white">#C0FFFFFF</color>
+    <color name="ui_config_color_background">#F4F5F7</color>
+    <color name="ui_config_color_background_pressed">#EEEFF1</color>
+    <color name="ui_config_color_black">#212832</color>
+    <color name="ui_config_color_blue">#1B88EE</color>
+    <color name="ui_config_color_button">#367cdd</color>
+    <color name="ui_config_color_button_pressed">#0348A8</color>
+    <color name="ui_config_color_button_un_enable">#6E9EE4</color>
+    <color name="ui_config_color_gray_1">#353C46</color>
+    <color name="ui_config_color_gray_2">#49505A</color>
+    <color name="ui_config_color_gray_3">#5D646E</color>
+    <color name="ui_config_color_gray_4">#717882</color>
+    <color name="ui_config_color_gray_5">#858C96</color>
+    <color name="ui_config_color_gray_6">#99A0AA</color>
+    <color name="ui_config_color_gray_7">#ADB4BE</color>
+    <color name="ui_config_color_gray_8">#C4C8D0</color>
+    <color name="ui_config_color_gray_9">#D8DCE4</color>
+    <color name="ui_config_color_line">#dfdfdf</color>
+    <color name="ui_config_color_link">#547FB0</color>
+    <color name="ui_config_color_main">#367cdd</color>
+    <color name="ui_config_color_pressed">#EEEEF0</color>
+    <color name="ui_config_color_pure_black">#000000</color>
+    <color name="ui_config_color_red">#FA3A3A</color>
+    <color name="ui_config_color_separator">#DEE0E2</color>
+    <color name="ui_config_color_separator_darken">#D4D6D8</color>
+    <color name="ui_config_color_transparent">#00000000</color>
+    <color name="ui_config_color_white">#ffffff</color>
+    <color name="ui_dark_config_color_text_assist_1">#888888</color>
+    <color name="ui_dark_config_color_text_assist_2">#999999</color>
+    <color name="ui_dark_config_color_text_general">#666666</color>
+    <color name="ui_dark_config_color_text_hint">#b2b2b2</color>
+    <color name="ui_dark_config_color_text_important">#333333</color>
+    <color name="ui_dark_config_color_text_title">#333333</color>
+    <color name="ui_dark_config_color_un_enable">#cccccc</color>
+    <color name="ui_dark_config_ui_bg">#f2f4f5</color>
+    <color name="ui_dark_config_ui_item_bg">#FFFFFF</color>
+    <color name="ui_dark_config_ui_top_bar">#FFFFFF</color>
+    <color name="ui_drawable_color_list_pressed">#DEE0E2</color>
+    <color name="ui_drawable_color_list_separator">#DEE0E2</color>
+    <color name="ui_drawable_color_list_separator_grey">#f5f5f5</color>
+    <color name="ui_light_config_color_hint">#d9d9d9</color>
+    <color name="ui_light_config_color_text_assist">#4DFFFFFF</color>
+    <color name="ui_light_config_color_text_general">#99FFFFFF</color>
+    <color name="ui_light_config_color_text_important">#FFFFFF</color>
+    <color name="ui_light_config_color_text_title">#FFFFFF</color>
+
+
+    <color name="ui_dark_config_color_money">#E95439</color>
+
+    <color name="ui_dark_config_color_button_1">#85D7E3</color>
+    <color name="ui_dark_config_color_button_to_1">#5AB6F7</color>
+    <color name="ui_dark_config_color_button_pressed_1">#1167A7</color>
+
+    <color name="ui_dark_config_color_button_2">#F2A450</color>
+    <color name="ui_dark_config_color_button_to_2">#E65130</color>
+    <color name="ui_dark_config_color_button_pressed_2">#CF320C</color>
+
+    <color name="ui_dark_config_color_dark_1">#303842</color>
+
+    <color name="ui_dark_config_color_grey">#FAFAFA</color>
+    <color name="ui_dark_config_color_grey_1">#fff6f7f9</color>
+    <color name="ui_dark_config_color_grey_button">#BFBFBF</color>
+    <color name="ui_dark_config_color_grey_2">#969799</color>
+    <color name="color_city_selected">#FFFBE6</color>
+    <color name="color_city_selected_text">#FBAD14</color>
+    <color name="color_red">#F5222D</color>
+    <color name="color_green">#008777</color>
+
+    <color name="bg_color">#fff6f7fc</color>
+    <color name="transparent">#00000000</color>
+    <color name="common_color">#02afc4</color>
+    <color name="common_color_li">#88c6ce</color>
+    <color name="common_color_pre">#0b98a9</color>
+    <color name="black_40">#B3000000</color>
+<!--    <color name="color_999">#999999</color>-->
+    <color name="colorAccent">#FBAD14</color>
+</resources>
